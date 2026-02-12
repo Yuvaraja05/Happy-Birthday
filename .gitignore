@@ -1,0 +1,28 @@
+# Photos (users will add their own)
+photo1.jpg
+photo2.jpg
+photo3.jpg
+photo4.jpg
+*.jpg
+*.jpeg
+*.png
+
+# Music files
+music.mp3
+*.mp3
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak

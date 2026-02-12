@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Birthday</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="loader">
+                <button id="play">Start</button>
+            </div>
+        </div>
+    </div>
+    
+    <audio class="song" controls loop>
+        <source src="music.mp3">
+        Your browser isn't invited for super fun audio time.
+    </audio>
+    
+    <canvas id="confetti"></canvas>
+    
+    <div class="main">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-12 col-xl-6 mx-auto">
+                    <div class="banner">🎉</div>
+                </div>
+
+                <div class="col-12 text-center">
+                    <div id="name" class="area">Malarvizhi</div>
+                </div>
+
+                <div class="col-12 text-center">
+                    <div class="gallery">
+                        <img src="photo1.jpg" alt="Birthday photo 1">
+                        <img src="photo2.jpg" alt="Birthday photo 2">
+                        <img src="photo3.jpg" alt="Birthday photo 3">
+                    </div>
+                </div>
+
+                <div class="col-12 text-center">
+                    <div class="type-wrap">
+                        <div id="typed-strings" class="typing">
+                            <h2>Happy Birthday <i id="nae">Malarvizhi</i></h2>
+                            <h2>Have a wonderful day</h2>
+                            <h2>Filled with joy and happiness.</h2>
+                        </div>
+                        <span id="typed" style="white-space:pre;"></span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-xl-3 cake">
+                    <div class="cake-emoji">🎂</div>
+                </div>
+            </div>
+        </div>
+        <div class="balloon-border">🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈</div>
+    </div>
+    
+    <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
